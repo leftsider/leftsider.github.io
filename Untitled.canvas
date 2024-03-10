@@ -1,0 +1,17 @@
+{
+	"nodes":[
+		{"id":"edbaa3d6459ce2d2","x":-140,"y":-320,"width":250,"height":50,"type":"file","file":"02. Project/Leftsider/L3 Github/index.md"},
+		{"id":"bf766495da83b0bf","x":-440,"y":-200,"width":250,"height":60,"type":"text","text":"bio"},
+		{"id":"6899f46aced73466","x":160,"y":-200,"width":250,"height":60,"type":"text","text":"activity"},
+		{"id":"a97078a057b01d6f","x":-140,"y":-200,"width":250,"height":60,"type":"text","text":"notes"},
+		{"id":"e7d6214ffae89d88","x":-280,"y":-80,"width":250,"height":60,"type":"text","text":"Current"},
+		{"id":"20bb031b4c882b23","x":0,"y":-80,"width":250,"height":60,"type":"text","text":"Archive"}
+	],
+	"edges":[
+		{"id":"e98b280a97c55fa4","fromNode":"edbaa3d6459ce2d2","fromSide":"bottom","toNode":"bf766495da83b0bf","toSide":"top"},
+		{"id":"b40c47f569e53ba0","fromNode":"edbaa3d6459ce2d2","fromSide":"bottom","toNode":"a97078a057b01d6f","toSide":"top"},
+		{"id":"1362cebc5c86b3a2","fromNode":"edbaa3d6459ce2d2","fromSide":"bottom","toNode":"6899f46aced73466","toSide":"top"},
+		{"id":"0e996cdba927d62e","fromNode":"a97078a057b01d6f","fromSide":"bottom","toNode":"20bb031b4c882b23","toSide":"top"},
+		{"id":"ff4ef9cd7eee9d71","fromNode":"a97078a057b01d6f","fromSide":"bottom","toNode":"e7d6214ffae89d88","toSide":"top"}
+	]
+}
