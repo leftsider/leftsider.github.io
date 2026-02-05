@@ -210,3 +210,58 @@ a {
 a:hover {
   color: var(--link-hover);
 }
+
+/* Breadcrumb */
+
+.breadcrumb {
+  margin-bottom: 16px;
+}
+
+.breadcrumb-link {
+  font-size: 0.9rem;
+  color: var(--text-soft);
+  text-decoration: none;
+  transition: color 0.15s ease;
+}
+
+.breadcrumb-link:hover {
+  color: var(--accent-ledger);
+}
+
+/* Article content */
+
+.section--content {
+  padding: 24px 24px 28px;
+}
+
+.content-paragraph {
+  margin: 0 0 16px;
+  font-size: 0.98rem;
+  line-height: 1.65;
+  color: var(--text);
+}
+
+.content-paragraph--intro {
+  font-size: 1.02rem;
+  color: var(--text-soft);
+}
+
+.content-paragraph:last-of-type {
+  margin-bottom: 20px;
+}
+
+.list--guidelines {
+  margin: 16px 0 20px;
+}
+
+.list--guidelines .list-item {
+  margin-bottom: 10px;
+  font-size: 0.96rem;
+}
+
+.content-subheading {
+  margin: 24px 0 0;
+  font-size: 1.1rem;
+  color: var(--accent-ledger);
+  letter-spacing: 0.02em;
+}
